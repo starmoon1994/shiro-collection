@@ -1,19 +1,16 @@
-package com.company.testshiro3;
+package com.company.testshiro4;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TestShiro3ApplicationTests {
+public class Testshiro4ApplicationTests {
 
     @Test
-    public void contextLoads(ApplicationContext applicationContext) {
-
-        applicationContext.getResource("");
+    public void contextLoads() {
     }
 
 }
